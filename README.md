@@ -2,20 +2,16 @@
 
 Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan React Native + Expo.
 
----
-
 ## 📸 Preview
 
 ### Login Screen
-![Login](login.jpeg)
+<img src="./assets/images/login.jpeg" width="260"/>
 
 ### Register Screen
-![Register](register.jpeg)
+<img src="./assets/images/register.jpeg" width="260"/>
 
 ### Home Screen
-![Home](home.jpeg)
-
----
+<img src="./assets/images/home.jpeg" width="260"/>
 
 ## 📋 Requirement Fitur
 
@@ -37,20 +33,16 @@ Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan Rea
 - Welcome Message dengan nama user
 - Tombol Logout
 
----
-
 ## 🛡️ Logic Implemented
 
 - **Email Validation** menggunakan Regex agar format email valid.
 - **Phone Validation** hanya angka dan minimal 10 digit.
 - **Password Validation** minimal 6 karakter.
 - **Match Check** Password dan Confirm Password harus sama.
-- **Login Security** hanya akun yang sudah register yang bisa login.
-- **Personal Greeting** Home menampilkan nama user yang terdaftar.
+- **Login Security** form login memvalidasi input email dan password.
+- **Personal Greeting** Home menampilkan nama user.
 - **Logout Function** kembali ke halaman login.
 - **Keyboard Handling** tampilan tetap nyaman saat mengetik.
-
----
 
 ## 🚀 Demo
 
@@ -59,8 +51,6 @@ Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan Rea
 
 ### GitHub Repository
 [Klik Repository GitHub](https://github.com/ruthangll/mission5-login-register)
-
----
 
 ## 💻 Cara Menjalankan Project
 
