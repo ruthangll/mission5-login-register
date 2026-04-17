@@ -1,19 +1,41 @@
-# Project M5: Protect The Social Network 🔐
+# Project M5: Protect The Social Network 🛡️
 
-Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan React Native + Expo Router.
+Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan React Native + Expo.
 
 ---
 
 ## 📸 Preview
 
 ### Login Screen
-<img src="./assets/images/login.jpeg" width="260"/>
+![Login](login.jpeg)
 
 ### Register Screen
-<img src="./assets/images/register.jpeg" width="260"/>
+![Register](register.jpeg)
 
 ### Home Screen
-<img src="./assets/images/home.jpeg" width="260"/>
+![Home](home.jpeg)
+
+---
+
+## 📋 Requirement Fitur
+
+### Screen 1 - Login
+- Input Email
+- Input Password
+- Tombol Login
+- Tombol **Daftar Disini**
+
+### Screen 2 - Register
+- Input Nama
+- Input Email
+- Input Phone
+- Input Password
+- Input Confirm Password
+- Tombol Register
+
+### Screen 3 - Home
+- Welcome Message dengan nama user
+- Tombol Logout
 
 ---
 
@@ -23,41 +45,21 @@ Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan Rea
 - **Phone Validation** hanya angka dan minimal 10 digit.
 - **Password Validation** minimal 6 karakter.
 - **Match Check** Password dan Confirm Password harus sama.
-- **Secure Login** login hanya bisa jika akun sudah terdaftar.
-- **Dynamic Welcome** halaman Home menampilkan nama user yang login.
-- **Navigation Flow** Login → Register → Home → Logout.
-
----
-
-## 📱 Screen Features
-
-### Screen 1 - Login
-- Input Email
-- Input Password
-- Tombol Login
-- Tombol Daftar Disini
-
-### Screen 2 - Register
-- Input Nama
-- Input Email
-- Input Phone Number
-- Input Password
-- Input Confirm Password
-- Tombol Submit
-
-### Screen 3 - Home
-- Welcome Message dengan nama user
-- Tombol Logout
+- **Login Security** hanya akun yang sudah register yang bisa login.
+- **Personal Greeting** Home menampilkan nama user yang terdaftar.
+- **Logout Function** kembali ke halaman login.
+- **Keyboard Handling** tampilan tetap nyaman saat mengetik.
 
 ---
 
 ## 🚀 Demo
 
 ### Expo Snack
-[Klik untuk mencoba aplikasi]([https://snack.expo.dev/@ruthangll/mission5-login-register](https://snack.expo.dev/@ruthangelsitorus/9cc9ea))
+[Klik untuk mencoba aplikasi](https://snack.expo.dev/@ruthangelsitorus/9cc9ea)
 
 ### GitHub Repository
 [Klik Repository GitHub](https://github.com/ruthangll/mission5-login-register)
+
 ---
 
 ## 💻 Cara Menjalankan Project
