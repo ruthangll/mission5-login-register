@@ -54,7 +54,7 @@ Tugas praktikum Minggu 5 - Login, Register & Security Validation menggunakan Rea
 ## 🚀 Demo
 
 ### Expo Snack
-[Klik untuk mencoba aplikasi](https://snack.expo.dev/@ruthangll/mission5-login-register)
+[Klik untuk mencoba aplikasi]([https://snack.expo.dev/@ruthangll/mission5-login-register](https://snack.expo.dev/@ruthangelsitorus/9cc9ea))
 
 ### GitHub Repository
 [Klik Repository GitHub](https://github.com/ruthangll/mission5-login-register)
