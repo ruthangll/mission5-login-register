@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Project M5: Protect The Social Network 🔐
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Tugas praktikum Minggu 5 - Login, Register & Security Validation.
 
-## Get started
+## 📸 Preview
 
-1. Install dependencies
+### Login Screen
+![Login](assets/images/login.jpg)
 
-   ```bash
-   npm install
-   ```
+### Register Screen
+![Register](assets/images/register.jpg)
 
-2. Start the app
+### Home Screen
+![Home](assets/images/home.jpg)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛡️ Logic Implemented
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Email Validation:** menggunakan Regex agar format email valid.  
+- **Phone Validation:** hanya angka dan minimal 10 digit.  
+- **Password Validation:** minimal 6 karakter.  
+- **Match Check:** Password dan Confirm Password harus sama.  
+- **Secure Login:** login hanya bisa jika akun sudah terdaftar.  
+- **Dynamic Welcome:** halaman Home menampilkan nama user terdaftar.  
+- **Navigation Flow:** Login → Register → Home → Logout.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## ⚙️ Fitur Screen
 
-When you're ready, run:
+### Screen 1 - Login
+- Input Email  
+- Input Password  
+- Tombol Login  
+- Tombol Daftar Disini  
+
+### Screen 2 - Register
+- Input Nama  
+- Input Email  
+- Input Phone Number  
+- Input Password  
+- Input Confirm Password  
+- Tombol Submit  
+
+### Screen 3 - Home
+- Welcome Message dengan nama user  
+- Tombol Logout  
+
+---
+
+## 🔗 Demo
+
+### Expo Snack
+[Klik untuk mencoba aplikasi](https://snack.expo.dev/)
+
+*(isi link snack kamu di sini)*
+
+### GitHub Repository
+[Klik Repository GitHub](https://github.com/ruthangll/mission5-login-register)
+
+---
+
+## 🚀 Run Project
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
