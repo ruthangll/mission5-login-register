@@ -5,13 +5,13 @@ Tugas praktikum Minggu 5 - Login, Register & Security Validation.
 ## 📸 Preview
 
 ### Login Screen
-![Login](assets/images/login.jpg)
+<img src="./assets/images/login.jpg" width="250"/>
 
 ### Register Screen
-![Register](assets/images/register.jpg)
+<img src="./assets/images/register.jpg" width="250"/>
 
 ### Home Screen
-![Home](assets/images/home.jpg)
+<img src="./assets/images/home.jpg" width="250"/>
 
 ---
 
